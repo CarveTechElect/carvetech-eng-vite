@@ -1,0 +1,114 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-text {
+    position: absolute;
+    margin: 13% 0% 0% 10%;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px white;
+    border-left: 3px solid black;
+    padding: 0% 0% 0% 2%;
+}
+
+.pic-vid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+}
+
+.toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    width: 20%;
+    padding: 2% 0% 2% 0%;
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    font-weight: bold;
+    background-color: lightblue;
+    border-bottom: 2px solid navy;
+}
+
+.pic-set-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1% auto 1% auto;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    width: 50%;
+    border-bottom: 1px solid black;
+}
+
+.gallery-picture-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 95%;
+    margin: 10px auto 10px auto;
+}
+
+.gallery-picture-set {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 50%;
+    padding: 1%;
+}
+
+.workpic {
+    border-radius: 5%;
+    width: 100%;
+}
+
+.pic-caption {
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-style: italic;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 70%;
+}
+
+.vid-set-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1% auto 1% auto;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    width: 50%;
+    border-bottom: 1px solid black;
+}
+
+.video-caption {
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-style: italic;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 70%;
+}
+
+.toggle-button.active {
+    background-color: lightblue; /* Change this to any color you prefer */
+    font-weight: bold;
+    border-bottom: 2px solid navy;
+}

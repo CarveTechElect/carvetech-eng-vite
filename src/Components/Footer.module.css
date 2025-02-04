@@ -1,0 +1,9 @@
+.links {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.links:hover {
+    color: orange;
+}

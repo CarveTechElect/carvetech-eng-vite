@@ -1,0 +1,22 @@
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    background-color: rgb(245, 208, 140);
+    border-bottom: 2px solid navy;
+    color: navy;
+}
+
+.links.active {
+    background-color: lightblue; /* Highlight active link */
+    font-weight: bold;
+    border-bottom: 2px solid navy;
+    border-radius: 5px;
+}
