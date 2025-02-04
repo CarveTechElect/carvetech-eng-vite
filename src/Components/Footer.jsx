@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 import facebook from './Facebook.png';
 import instagram from './Instagram.png';
 import linkedin from './LinkedIn.png';
-import youtube from './Youtube.png';
+import youtube from './YouTubeIcon.png';
 import whatsapp from './WhatsApp.png';
 
 function Footer() {

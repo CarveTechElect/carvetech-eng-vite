@@ -25,11 +25,3 @@
     margin: 1.5%;
     width: 12%;
 }
-
-
-.links.active {
-    background-color: rgb(245, 208, 140);
-    border-bottom: 2px solid navy;
-    color: navy;
-    text-shadow: 1px 1px white;
-}
